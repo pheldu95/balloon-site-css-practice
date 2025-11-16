@@ -103,13 +103,14 @@ a {
 .work-with-us {
     display: grid;
     width: 100%;
-    height: 200px;
+    height: auto;
     font-family: 'Roboto', sans-serif;
     font-size: large;
     justify-content: center;
     align-items: center;
     color: black;
     font-family: 'Montserrat', 'sans-serif';
+    padding-bottom: 20px;
 }
 
 .work-with-us-categories {
@@ -133,4 +134,26 @@ a {
     font-size: medium;
     color: hsla(170.83, 39.13%, 36.08%, 1);
     cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: hsl(6.67deg 85.93% 60.98%);
+}
+
+.footer-logo {
+    width: 120px;
+    height: 100px;
+    padding: 20px;
+}
+
+.footer-left {
+   display: grid;
+}
+
+.footer-right {
+   display: grid;
 }
